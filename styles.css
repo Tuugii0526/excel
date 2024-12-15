@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  grid-template: 30px /80px repeat(10, 200px);
+}
+.label {
+  background-color: gainsboro;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 30px;
+  gap: 2px;
+}
+.instruction {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px 0 20px;
+}
+.unordered-list-class {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 10px;
+}
